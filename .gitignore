@@ -1,0 +1,15 @@
+# Ignore executable files
+*.exe
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python bytecode and cache
+*.pyc
+__pycache__/
+
+# Ignore VS files
+.vs
+
+# Ignore generated CSV files
+c/output_data/*
