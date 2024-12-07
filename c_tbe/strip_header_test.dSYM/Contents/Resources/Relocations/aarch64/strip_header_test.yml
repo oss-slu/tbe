@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     strip_header_test
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _strip_header, symObjAddr: 0x0, symBinAddr: 0x100003998, symSize: 0x354 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _strip_header, symObjAddr: 0x0, symBinAddr: 0x100003998, symSize: 0x354 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _free_metadata, symObjAddr: 0x354, symBinAddr: 0x100003CEC, symSize: 0xAC }
+  - { offsetInCU: 0x26, offset: 0x40B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D98, symSize: 0xB0 }
+  - { offsetInCU: 0x41, offset: 0x426, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D98, symSize: 0xB0 }
+...
