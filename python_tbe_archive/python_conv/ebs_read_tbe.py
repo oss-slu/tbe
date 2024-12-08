@@ -50,7 +50,7 @@ import re
 from tzlocal import get_localzone
 from pytz import all_timezones
 
-from bdf_utils import get_attribute_check
+from .bdf_utils import get_attribute_check
 
 def ebs_read_tbe(flin='./Dku_bluesky_analysis/saq_bluesky_bgd_20211001_20230430_inv_tbe.csv', flsource='extdata', tblselect=None):
 
